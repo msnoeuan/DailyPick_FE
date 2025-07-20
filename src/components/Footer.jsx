@@ -18,7 +18,7 @@ function Footer() {
 
                     <div className="justify-self-center flex flex-col gap-3">
                         <div className="font-bold text-xl">고객지원</div>
-                        <div>맛집 찾기</div>
+                        <div>피드백 보내기</div>
                         <div>문의하기</div>
                         <div>자주 묻는 질문</div>
                     </div>
