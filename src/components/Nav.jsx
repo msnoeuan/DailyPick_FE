@@ -8,7 +8,7 @@ function Nav() {
     const navigate = useNavigate()
 
     return (
-        <div className = 'grid grid-cols-3 items-center px-60 py-4'>
+        <div className = 'grid grid-cols-3 items-center px-60 py-4 bg-white'>
             <div className='justify-self-start'>
                 <img src = {Logo} alt = '로고' className = 'h-8' />
             </div>

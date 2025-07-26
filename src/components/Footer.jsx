@@ -1,4 +1,6 @@
 // ./src/components/Footer.jsx
+import { Link } from 'react-router-dom'
+
 function Footer() {
     return (
         <div className="bg-[#101827] text-white ">
@@ -11,9 +13,9 @@ function Footer() {
                     
                     <div className="justify-self-center flex flex-col gap-3">
                         <div className="font-bold text-xl">서비스</div>
-                        <div>맛집 찾기</div>
-                        <div>투표하기</div>
-                        <div>친구관리</div>
+                        <Link to = "/store_id">맛집 찾기</Link>
+                        <Link to = "/vote">투표하기</Link>
+                        <Link to = "/friend">친구관리</Link>
                     </div>
 
                     <div className="justify-self-center flex flex-col gap-3">

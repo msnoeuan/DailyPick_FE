@@ -6,3 +6,8 @@
     --color-textColor : #6B7280;
     --color-bgYellow : #FAF6E9;
 }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}

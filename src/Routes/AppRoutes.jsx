@@ -9,7 +9,7 @@ import Register from '../pages/Register'
 
 export const routes = [
     {element: <Home />, path : "/", label : "홈", inLink : true},  
-    {element: <Store />, path : "/store_id/", label : "맛집", inLink : true},
+    {element: <Store />, path : "/store_id", label : "맛집", inLink : true},
     {element: <Friend />, path : "/friend", label : "친구", inLink : true}, 
     {element: <Vote />, path : "/vote", label : "투표", inLink : true}, 
     {element: <Login />, path : "/login", label : "로그인", inLink : false}, 
