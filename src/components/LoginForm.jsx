@@ -10,7 +10,7 @@ function LoginForm() {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className='flex flex-col w-1/4 bg-white rounded-md py-15 pb-30 gap-5'>
+            <div className='flex flex-col w-1/4 bg-white rounded-md py-10 pb-30 gap-5'>
                 <div className='flex flex-col justify-center items-center gap-2'>
                     <span className='text-xl font-bold'>로그인</span>
                     <span className='text-textColor text-sm'>로그인하여 맛집을 탐색해보세요</span>
@@ -35,8 +35,8 @@ function LoginForm() {
                         <span>로그인 상태 유지</span>
                     </div>
 
-                    <div className='w-full pd-5'>
-                        <button className='bg-green rounded-md text-white w-full'>
+                    <div className='w-full'>
+                        <button className='bg-green rounded-md text-white w-full p-2'>
                             로그인
                         </button>
                     </div>
